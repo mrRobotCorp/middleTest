@@ -24,7 +24,7 @@ header nav ul#gnb>li a { color: #fff; }
 header nav ul#gnb>li a:hover { color: #ff0; } 
 
 footer::before { content: url(../source/logo_footer.png); } 
-footer { background-color: #1c1c1c; color: #fff; font-size: 13px; padding: 20px; font-weight: lighter;} 
+footer { background-color: #1c1c1c; color: #fff; font-size: 13px; padding: 40px 0 10px 20px; font-weight: lighter;} 
 footer .account li { display: inline-block; margin: 15px 0; padding:0 20px; border-right: 1px solid #cfcfcf;}
 footer .account li:first-child { padding-left: 0;}
 footer .account li:last-child { border: none;}
