@@ -1,0 +1,7 @@
+.banner { height: 700px; background: url(../source/slide1.jpg) no-repeat; background-size: cover; } 
+.banner:hover { animation: kenburns-bottom 1.5s ease-out both; } 
+
+@keyframes kenburns-bottom { 
+0% { -webkit-transform: scale(1) translateY(0); transform: scale(1) translateY(0); -webkit-transform-origin: 50% 84%; transform-origin: 50% 84%; } 
+100% { -webkit-transform: scale(1.15) translateY(10px); transform: scale(1.15) translateY(10px); -webkit-transform-origin: bottom; transform-origin: bottom; } 
+}

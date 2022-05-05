@@ -1,0 +1,26 @@
+.slide { margin-top: 40px; } 
+.slide input { display: none; } 
+.slide .slideWarp { max-width: 1200px; margin: 0 auto; overflow: hidden; } 
+
+.slide .imgs { white-space: nowrap; padding: 0; margin: 0; } 
+.slide .imgs>li { width: 100%; display: inline-block; vertical-align: middle; transition: all 0.6s; } 
+.slide .imgs>li>a { display: block; position: relative; } 
+.slide .imgs>li>a img { width: 100%}
+.slide .imgs label { position: absolute; z-index: 5; top: 50%; transform: translateY(-50%); padding: 50px; cursor: pointer; } 
+
+.slide .slideWarp .left { z-index: 30; left: 20px; padding: 20px; background: url("../source/button_prev.png") center no-repeat; background-color: rgba(48, 48, 48, 0.461); border-radius: 50%; opacity: 90%; } 
+.slide .slideWarp .left:hover { background-color: #000000c0; } 
+.slide .slideWarp .right { z-index: 30; right: 20px; padding: 20px; background: url("../source/button_next.png") center no-repeat; background-color: rgba(48, 48, 48, 0.461); border-radius: 50%; opacity: 90%; } 
+.slide .slideWarp .right:hover { background-color: #000000c0; } 
+
+.slide [id="slide1"]:checked~.slideWarp .imgs>li { transform: translateX(0%); } 
+.slide [id="slide2"]:checked~.slideWarp .imgs>li { transform: translateX(-100%); } 
+.slide [id="slide3"]:checked~.slideWarp .imgs>li { transform: translateX(-201%); } 
+.slide [id="slide4"]:checked~.slideWarp .imgs>li { transform: translateX(-302%); } 
+
+.listBox { margin: 100px auto; }
+.listBox tr th { padding: 20px 0;}
+.listBox .comment { font-size: 15px; }
+.listBox .price { font-size: 13px; }
+.listBox .item { margin: 10px 30px;}
+.listBox .item img { width: 250px; margin: 20px 0;}

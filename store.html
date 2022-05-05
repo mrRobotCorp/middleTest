@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./source/favicon36.png" sizes="36x36" />
+    <link rel="apple-touch-icon" href="./source/apple-icon-180x180.png" sizes="180x180" />
+    <link rel="stylesheet" type="text/css" href="./css/store.css">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="./js/common.js"></script>
+
+    <title>AM : Store</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="cursor"></div>
+
+    <header>
+        <nav>
+            <h1><a href="./index.html"><img src="./source/logo_main.png"></a></h1>
+            <ul id="gnb">
+                <li><a href="./AM.html">AM</a></li>
+                <li><a href="./FWN.html">FWN</a></li>
+                <li><a href="./tour.html">Tour</a></li>
+                <li><a href="./store.html">Store</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sec1">
+        <h2>스토어 배너</h2>
+        <article>
+            <div class="slide">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+                <input type="radio" name="slide" id="slide4">
+
+                <div class="slideWarp">
+                    <ul class="imgs">
+                        <li><a>
+                                <label for="slide3" class="left"></label>
+                                <div class="pImg">
+                                    <img src="./source/storeBanner.jpg">
+                                </div>
+                                <label for="slide2" class="right"></label>
+                            </a></li>
+                        <li><a>
+                                <label for="slide1" class="left"></label>
+                                <div class="pImg">
+                                    <img src="./source/storeBanner2.jpg">
+                                </div>
+                                <label for="slide3" class="right"></label>
+                            </a></li>
+                        <li><a>
+                                <label for="slide2" class="left"></label>
+                                <div class="pImg">
+                                    <img src="./source/slide2.jpg">
+                                </div>
+                                <label for="slide1" class="right"></label>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section id="sec2">
+        <h2 class="blind">상품 목록</h2>
+        <table class="listBox">
+            <tr>
+                <th colspan="4">
+                    All Goods
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <ul class="item">
+                        <li><img src="./source/list1.jpg"></li>
+                        <li class="comment">Tawny Orange</li>
+                        <li class="price">$999.99</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="item">
+                        <li><img src="./source/list2.jpg"></li>
+                        <li class="comment">Very Peri</li>
+                        <li class="price">$999.99</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="item">
+                        <li><img src="./source/goods.jpg"></li>
+                        <li class="comment">Iced Coffee</li>
+                        <li class="price">
+                            <s>$999.99</s>&nbsp;→
+                            <span class="sale">&nbsp;$99.99</span>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="item">
+                        <li><img src="./source/goods2.jpg"></li>
+                        <li class="comment">Pink Flambe</li>
+                        <li class="price">$999.99</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul class="item">
+                        <li><img src="./source/goods3.jpg"></li>
+                        <li class="comment">Fuchsia Pink</li>
+                        <li class="price">$999.99</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="item">
+                        <li><img src="./source/goods3-2.jpg"></li>
+                        <li class="comment">Paradise Pink</li>
+                        <li class="price">$999.99</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="item">
+                        <li><img src="./source/list3.jpg"></li>
+                        <li class="comment">Cornsilk</li>
+                        <li class="price">
+                            <s>$999.99</s>&nbsp;→
+                            <span class="sale">&nbsp;$99.99</span>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="item">
+                        <li><img src="./source/list4.jpg"></li>
+                        <li class="comment">Tourmaline</li>
+                        <li class="price">
+                            <s>$999.99</s>&nbsp;→
+                            <span class="sale">&nbsp;$99.99</span>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>Official Account</p>
+        <ul class="account">
+            <li><a href="https://www.arcticmonkeys.com/">website</a></li>
+            <li><a href="https://twitter.com/ArcticMonkeys">twitter</a></li>
+            <li><a href="https://www.facebook.com/ArcticMonkeys">facebook</a></li>
+            <li><a href="https://www.instagram.com/arcticmonkeys/">instagram</a></li>
+            <li><a href="https://www.youtube.com/channel/UC-KTRBl9_6AX10-Y7IKwKdw">youtube</a></li>
+        </ul>
+        <address>
+            <a href="mailto:mrrobot@kaywon.ac.kr">E-mail</a>
+            <p class="copy">&copy; All rights deserved</p>
+        </address>
+    </footer>
+</body>
+</html>
